@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceQuiz</title>
+    <script>
+        var bleep = new Audio();
+        bleep.src = "bleep.wav";
+        function delay (URL) {
+    setTimeout( function() { window.location = URL }, 2500 );
+      
+}
+
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css\style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<audio src="./vocesis.mp3" autoplay></audio>
+ <audio src="dreamman.mp3" autoplay loop controls></audio>
+     <h1><center>SPACEQUIZ</center></h1>
+     
+<a class="soare" onclick="delay('planete/soare/soare.html')"; onmousedown="bleep.play()";>SOARE</a>
+<a class="mercur" onclick="delay('planete/mercur/mercur.html')"; onmousedown="bleep.play()";>MERCUR</a>
+<a class="venus" onclick="delay('planete/venus/venus.html')"; onmousedown="bleep.play()";>VENUS</a>
+<a class="pamant" onclick="delay('planete/pamant/pamant.html')"; onmousedown="bleep.play()";>PAMANT</a>
+<a class="marte" onclick="delay('planete/marte/marte.html')"; onmousedown="bleep.play()";>MARTE</a>
+<a class="jupiter" onclick="delay('planete/jupiter/jupiter.html')"; onmousedown="bleep.play()";>JUPITER</a>
+<a class="saturn" onclick="delay('planete/saturn/saturn.html')"; onmousedown="bleep.play()";>SATURN</a>
+<a class="uranus" onclick="delay('planete/uranus/uranus.html')"; onmousedown="bleep.play()";>URANUS</a>
+<a class="neptun" onclick="delay('planete/neptun/neptun.html')"; onmousedown="bleep.play()";>NEPTUN</a>
+
+</body>
+</html>
